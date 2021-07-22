@@ -40,7 +40,7 @@ body {
 header {
    width: 100%;
    height: 95vh;
-   margin-bottom: 10rem;
+   margin-bottom: 13rem;
    background-image: linear-gradient(
          to bottom,
          rgba(0, 0, 0, 0.3) 20%,
@@ -94,10 +94,12 @@ main {
 }
 
 .container {
-   max-width: 1440px;
+   width: 100rem;
 }
 
 .features {
+   margin-bottom: 13rem;
+
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -106,6 +108,7 @@ main {
 .features-texts {
    width: 60rem;
    text-align: center;
+   margin: 0 auto;
 }
 
 .heading-secondary {
@@ -153,8 +156,8 @@ main {
 }
 
 .feature-video {
-   width: 110rem;
-   height: 70rem;
+   /* width: 110rem;
+   height: 70rem; */
    display: flex;
    justify-content: center;
 }
@@ -169,11 +172,13 @@ main {
 /* try section css  */
 
 .try-section {
-   width: 110rem;
-   height: 70rem;
+   /* width: 110rem;
+   height: 70rem; */
    display: flex;
    align-items: center;
    gap: 5rem;
+
+   margin-bottom: 13rem;
 }
 
 .try-texts-text {
@@ -183,9 +188,143 @@ main {
    line-height: 1.5;
    color: var(--color-text-light);
    margin: 3rem 0;
-   width: 40%;
 }
 
 .try-img img {
    width: 100%;
+}
+
+/* newsletter section css */
+
+.newsletter {
+   margin-bottom: 13rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 5rem;
+}
+
+.newsletter-image {
+   width: 50%;
+}
+
+.newsletter-image img {
+   width: 100%;
+}
+
+.newsletter-form {
+   color: var(--color-text-light);
+   width: 40%;
+}
+
+.newsletter-form h4 {
+   margin-bottom: 0.5rem;
+}
+
+.newsletter-form .heading-secondary {
+   margin-bottom: 3rem;
+}
+
+.newsletter-form p {
+   margin-bottom: 3rem;
+   font-size: 1.4rem;
+}
+
+.newsletter-form input {
+   padding: 1.5rem 4rem 1.5rem 2rem;
+   border: 0;
+   border-radius: 25px;
+   font-size: 1.6rem;
+   caret-color: var(--color-pri);
+   color: var(--color-pri);
+}
+
+.newsletter-form input:focus {
+   outline: none;
+}
+
+.newsletter-btn {
+   font-size: 1.6rem;
+   background: var(--color-pri);
+   color: var(--color-text-light);
+   padding: 1.4rem 3rem;
+}
+
+/* pricing css */
+
+.pricing-texts {
+   width: 60rem;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.pricing-text {
+   margin-top: 1rem;
+   font-size: 2.5rem;
+   margin-top: 1rem;
+   margin-bottom: 9rem;
+   line-height: 1.5;
+   color: var(--color-text-light);
+}
+
+.pricing-cards {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 3rem;
+}
+.pricing-card {
+   background: var(--color-bg-light);
+   text-align: center;
+   padding: 3rem;
+   border-radius: 10px;
+}
+
+.card-popular {
+   padding: 5rem 3rem;
+   background: var(--color-pri);
+   color: var(--color-text-light);
+}
+
+.pricing-card h3 {
+   margin-bottom: 1rem;
+}
+
+.pricing-card-text {
+   width: 15rem;
+   margin: 0 auto;
+   margin-bottom: 2rem;
+}
+
+.price {
+   margin-bottom: 2rem;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.price p {
+   text-align: left;
+   margin-left: 1rem;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+
+.pricing-feature {
+   margin-bottom: 2rem;
+}
+
+.pricing-btn {
+   margin-top: 1rem;
+   font-size: 1.6rem;
+   background: var(--color-pri);
+   color: var(--color-text-light);
+   padding: 1.4rem 6rem;
+}
+
+.card-popular .pricing-btn {
+   background: var(--color-bg-light);
+   color: var(--color-pri);
 }
