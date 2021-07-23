@@ -205,6 +205,10 @@ main {
    width: 61px;
 }
 
+.feature-icon.icon-pen {
+   width: 71px;
+}
+
 .heading-tartiary {
    font-size: 2rem;
    margin: 2rem 0;
