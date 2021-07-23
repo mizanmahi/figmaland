@@ -61,8 +61,10 @@ header {
 }
 
 .container-header {
-   width: 100rem;
+   width: 100%;
+   max-width: 110rem;
    height: 100%;
+   padding: 2rem;
    position: relative;
 }
 
@@ -70,7 +72,7 @@ header {
    display: flex;
    position: absolute;
    top: 4rem;
-   left: 0;
+   left: 1rem;
 }
 
 .nav li {
@@ -106,7 +108,7 @@ header {
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
-   width: 762px;
+   width: 76.2rem;
    margin: 0 auto;
    text-align: center;
    color: var(--color-text-light);
@@ -150,7 +152,9 @@ main {
 }
 
 .container {
-   width: 100rem;
+   width: 100%;
+   max-width: 110rem;
+   padding: 0 2rem;
    position: relative;
 }
 
@@ -452,6 +456,7 @@ main {
    text-align: center;
    margin-bottom: 5rem;
    display: flex;
+   justify-content: space-between;
    gap: 2rem;
    color: var(--color-text-light);
 }
@@ -464,6 +469,9 @@ main {
 
 .map img {
    width: 100%;
+   border: 3px solid var(--color-pri);
+   border-radius: 20px;
+   box-shadow: var(--default-shadow);
 }
 
 /* footer css */
