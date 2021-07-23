@@ -4,6 +4,11 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- font awesome -->
+      <script
+         src="https://kit.fontawesome.com/f1693a0f9b.js"
+         crossorigin="anonymous"
+      ></script>
       <!-- stylesheet -->
       <link rel="stylesheet" href="style.css" />
       <title>Figma Land</title>
@@ -11,13 +16,24 @@
    <body>
       <!-- header start -->
       <header>
-         <div class="intro">
-            <h1 class="heading-primary">The best products starts with Figma</h1>
-            <p class="intro-text">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-               Explicabo in laboriosam nemo!
-            </p>
-            <button class="btn intro-btn">Try For Free</button>
+         <div class="container-header">
+            <ul class="nav">
+               <li><a href="#">Home</a></li>
+               <li><a href="#features">Features</a></li>
+               <li><a href="#pricing">Pricing</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="intro">
+               <h1 class="heading-primary">
+                  The best products starts with Figma
+               </h1>
+               <p class="intro-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo in laboriosam nemo!
+               </p>
+               <button class="btn intro-btn">Try For Free</button>
+            </div>
          </div>
       </header>
       <!-- header end -->
@@ -26,7 +42,7 @@
       <main>
          <div class="container">
             <!-- featurs section start -->
-            <section class="features">
+            <section class="features" id="features">
                <div class="features-texts">
                   <h2 class="heading-secondary">Features</h2>
                   <p class="features-text">
@@ -80,7 +96,7 @@
                      </p>
                   </div>
                </div>
-               <div class="feature-video">
+               <div class="feature-video" id="about">
                   <video
                      class="video"
                      src="media/feature-video.mp4"
@@ -131,7 +147,7 @@
             <!-- newsletter section start -->
 
             <!-- pricing section start -->
-            <section class="pricing">
+            <section class="pricing" id="pricing">
                <div class="pricing-texts">
                   <h2 class="heading-secondary">Features</h2>
                   <p class="pricing-text">
@@ -202,7 +218,7 @@
             <!-- pricing section end -->
 
             <!-- contact section start -->
-            <section class="contact">
+            <section class="contact" id="contact">
                <div class="pricing-texts">
                   <h2 class="heading-secondary">Contact us</h2>
                   <p class="pricing-text">
@@ -299,5 +315,44 @@ Write lines</textarea
          <!-- container end -->
       </main>
       <!-- main end -->
+
+      <!-- foorer start -->
+      <footer>
+         <div class="container">
+            <ul class="footer-nav">
+               <li>
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+               </li>
+               <li>
+                  <a href="#"><i class="fab fa-twitter-square"></i></a>
+               </li>
+               <li>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+               </li>
+               <li>
+                  <a href="#"><i class="fab fa-github-square"></i></a>
+               </li>
+            </ul>
+            <div class="hr"></div>
+            <p>
+               All right reserved by Figmaland, copyright &copy; 2021. Developed
+               by
+               <a href="">Mizan Mahi</a>
+            </p>
+            <p class="footer-text">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+               aliquid. Aut quam similique quos tempora labore porro ducimus
+               nostrum. Eveniet optio molestiae illo minima molestias. Lorem
+               ipsum, dolor sit amet consectetur adipisicing elit. Maiores
+               laudantium eveniet at ea quia blanditiis cupiditate in placeat
+               cum dignissimos perspiciatis ex distinctio alias commodi quisquam
+               dolorem unde consequatur eos itaque, quam repellendus. Obcaecati
+               sunt adipisci, sed laboriosam nisi sequi explicabo autem ducimus
+               tempora nam iste, cumque consequuntur iusto eveniet! Lorem ipsum
+               dolor sit.
+            </p>
+         </div>
+      </footer>
+      <!-- foorer end -->
    </body>
 </html>
