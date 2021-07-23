@@ -63,20 +63,32 @@ header {
    width: 100%;
    max-width: 110rem;
    height: 100%;
-   padding: 2rem;
+   padding: 0 2rem;
    position: relative;
+}
+
+.navbar {
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 1rem;
+}
+
+.navbar .logo img {
+   cursor: pointer;
 }
 
 .nav {
    display: flex;
-   position: absolute;
-   top: 4rem;
-   left: 1rem;
 }
 
 .nav li {
    list-style: none;
-   margin-right: 3rem;
+   margin-left: 3rem;
    font-size: 1.5rem;
 }
 .nav li a {
@@ -100,6 +112,12 @@ header {
 
 .nav li a:hover::after {
    transform: scale(1);
+}
+
+.navbar svg {
+   height: 50px;
+   stroke: var(--color-text-light);
+   display: none;
 }
 
 .intro {
