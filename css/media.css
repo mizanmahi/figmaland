@@ -4,7 +4,7 @@
       flex-direction: column;
    }
 
-   .try-text,
+   .try-texts,
    .newsletter-form {
       text-align: center;
    }
@@ -16,7 +16,6 @@
    }
 
    .footer-text {
-      margin-top: 3rem;
       column-count: 1;
    }
 }
@@ -36,14 +35,9 @@
       color: var(--color-text-light);
    }
 
-   .intro {
-      width: 100%;
-   }
-
+   .intro,
    .features-texts {
       width: 100%;
-      text-align: center;
-      margin: 0 auto;
    }
 
    .feature-boxes {
